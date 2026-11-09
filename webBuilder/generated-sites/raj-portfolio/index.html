@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raj Jaiswal - Java Backend Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+</head>
+<body class="dark">
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">Raj Jaiswal</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#hero" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#leetcode" class="nav__link">LeetCode</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <button class="theme-toggle" id="theme-toggle">🌙</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero container" id="hero">
+        <div class="hero__content">
+            <h1>Hello, I'm <span class="highlight">Raj Jaiswal</span></h1>
+            <p>Aspiring Java Backend Developer | Spring Boot | Microservices</p>
+            <div class="hero__cta">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="resume.pdf" class="btn btn-outline" download>Download Resume</a>
+            </div>
+        </div>
+        <div class="hero__image">
+            <img src="profile.jpg" alt="Raj Jaiswal" />
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about container" id="about">
+        <h2 class="section-title">About Me</h2>
+        <p>I am a passionate backend developer focusing on clean, scalable Java applications. I love solving complex problems, building APIs, and learning new technologies.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills container" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="skill-list">
+            <li>Java</li>
+            <li>Spring Boot</li>
+            <li>C++</li>
+            <li>SQL</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects container" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+            <article class="project-card">
+                <h3>E‑commerce Backend</h3>
+                <p>RESTful API for product catalog, cart, and order management using Spring Boot and MySQL.</p>
+                <a href="https://github.com/rajjaiswal/ecommerce-backend" target="_blank" class="project-link">GitHub</a>
+            </article>
+            <article class="project-card">
+                <h3>Social Media Backend</h3>
+                <p>Scalable microservices architecture handling posts, comments, and likes.</p>
+                <a href="https://github.com/rajjaiswal/social-media-backend" target="_blank" class="project-link">GitHub</a>
+            </article>
+            <article class="project-card">
+                <h3>AI Email Assistant</h3>
+                <p>Java service integrating OpenAI to draft email replies based on context.</p>
+                <a href="https://github.com/rajjaiswal/ai-email-assistant" target="_blank" class="project-link">GitHub</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience container" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <ul class="experience-list">
+            <li><strong>Intern – Backend Engineer</strong> at TechSolutions (2023 Summer) – Developed REST APIs with Spring Boot.</li>
+            <li><strong>Open‑Source Contributor</strong> – Fixed bugs and added features to popular Java libraries.</li>
+        </ul>
+    </section>
+
+    <!-- LeetCode Section -->
+    <section class="leetcode container" id="leetcode">
+        <h2 class="section-title">LeetCode Achievements</h2>
+        <p>Solved <strong>200+</strong> algorithmic problems, focusing on data structures, concurrency, and system design.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact container" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <form class="contact-form" action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="https://github.com/rajjaiswal" target="_blank" aria-label="GitHub">GitHub</a>
+            <a href="https://linkedin.com/in/rajjaiswal" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <p>&copy; 2026 Raj Jaiswal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
